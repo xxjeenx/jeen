@@ -250,7 +250,7 @@
     height: 70vh;
     position: relative;
 }
-#section02 .inner:after{
+/* #section02 .inner:after{
     content: '';
     background-image: url(../img/section02/jeen1.png);
     position: absolute;
@@ -258,7 +258,7 @@
     left: 35%;
     width: 1041px;
     height: 270px;
-}
+} */
 
 #section02 .inner .title{
     position: absolute;
@@ -274,6 +274,11 @@
 #section02 .inner .title.on > img{
   opacity: 1;
     transform: translateX(0);
+}
+#section02 .inner .jeen{
+  position: absolute;
+  top: 8vh;
+  right: 0;
 }
 #section02 .inner .img{
     position: absolute;
