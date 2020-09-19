@@ -237,7 +237,7 @@
 
 
 /** Scene02 **/
-#section02{
+/* #section02{
     background-color: #e87e17;
     position: relative;
     display: flex;
@@ -266,7 +266,7 @@
     height: 270px;
 } */
 
-#section02 .inner .title{
+/* #section02 .inner .title{
     position: absolute;
     top: 45%;
     left: 55%;
@@ -280,13 +280,13 @@
 #section02 .inner .title.on > img{
   opacity: 1;
     transform: translateX(0);
-}
+} */
 /* #section02 .inner .jeen{
   position: absolute;
   top: 8vh;
   right: 0;
 } */
-#section02 .inner .img{
+/* #section02 .inner .img{
     position: absolute;
     top: 0;
     left: 3%;
@@ -314,7 +314,7 @@
 #section02 .inner .txt.on > img{
     transform: translateX(0);
     opacity: 1;
-}
+} */
 
 
 /** Scene03 **/

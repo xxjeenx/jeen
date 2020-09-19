@@ -81,37 +81,37 @@ $(function () {
         // scroll event section
         //==========================
 
-        if(scrollLeft >= 800){
-            $('#section02 .inner .img').addClass('on');
-        } else{
-            $('#section02 .inner .img').removeClass('on');
-        }
+        // if(scrollLeft >= 800){
+        //     $('#section02 .inner .img').addClass('on');
+        // } else{
+        //     $('#section02 .inner .img').removeClass('on');
+        // }
+        // if(scrollLeft >= 1200){
+        //     $('#section02 .inner .title').addClass('on');
+        // } else{
+        //     $('#section02 .inner .title').removeClass('on');
+        // }
+        // if(scrollLeft >= 1200){
+        //     $('#section02 .inner .txt').addClass('on');
+        // } else{
+        //     $('#section02 .inner .txt').removeClass('on');
+        // }
         if(scrollLeft >= 1200){
-            $('#section02 .inner .title').addClass('on');
-        } else{
-            $('#section02 .inner .title').removeClass('on');
-        }
-        if(scrollLeft >= 1200){
-            $('#section02 .inner .txt').addClass('on');
-        } else{
-            $('#section02 .inner .txt').removeClass('on');
-        }
-        if(scrollLeft >= 2500){
             $('#section03 .title_box').addClass('on');
         } else{
             $('#section03 .title_box').removeClass('on');
         }
-        if(scrollLeft >= 4800){
+        if(scrollLeft >= 2500){
             $('#section04 .img').addClass('on');
         } else{
             $('#section04 .img').removeClass('on');
         }
-        if(scrollLeft >= 5000){
+        if(scrollLeft >= 4800){
             $('#section04').addClass('on');
         } else{
             $('#section04').removeClass('on');
         }
-        if(scrollLeft >= 5500){
+        if(scrollLeft >= 5000){
             $('#section04 .sub_txt_box').addClass('on');
         } else{
             $('#section04 .sub_txt_box').removeClass('on');
